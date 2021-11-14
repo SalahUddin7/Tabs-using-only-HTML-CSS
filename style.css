@@ -54,7 +54,6 @@ body{
 }
 #home:checked ~ nav label.home,
 #blog:checked ~ nav label.blog,
-#code:checked ~ nav label.code,
 #help:checked ~ nav label.help,
   #about:checked ~ nav label.about{
   color: #fff;
@@ -79,9 +78,7 @@ input[type="radio"]{
 #blog:checked ~ nav .slider{
   left: 20%;
 }
-#code:checked ~ nav .slider{
-  left: 40%;
-}
+
 #help:checked ~ nav .slider{
   left: 60%;
 }
